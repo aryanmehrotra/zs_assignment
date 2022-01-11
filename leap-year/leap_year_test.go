@@ -2,7 +2,7 @@ package leapyear
 
 import "testing"
 
-// TestLeapYear : Tests the leap year funcion
+// TestLeapYear Tests the leap year funcion
 func TestLeapYear(t *testing.T) {
 	cases := []struct {
 		desc   string // Test Case name

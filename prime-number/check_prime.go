@@ -4,7 +4,7 @@ import (
 	"math"
 )
 
-// checkPrime : checks if the number is prime or not
+// checkPrime checks if the number is prime or not
 func checkPrime(input int) bool {
 	if input <= 1 {
 		return false

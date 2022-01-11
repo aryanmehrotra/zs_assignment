@@ -1,12 +1,12 @@
 package employee
 
-// Employee : entity which represents employee
+// Employee represents employee entity
 type Employee struct {
-	name string
-	age  int
+	Name string
+	Age  int
 }
 
-// checkAge check if the age is more than or less than 22
+// checkAge check if the Age is more than or less than 22
 func checkAge(name string, age int) (Employee, bool) {
 	if age < 22 {
 		return Employee{}, false

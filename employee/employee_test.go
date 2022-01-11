@@ -12,8 +12,8 @@ func TestCheckAge(t *testing.T) {
 		ok     bool
 	}{
 		{"less than 22", "Aryan", 20, Employee{}, false},
-		{"negative age", "Aryan", -1, Employee{}, false},
-		{"zero age", "Aryan", 0, Employee{}, false},
+		{"negative Age", "Aryan", -1, Employee{}, false},
+		{"zero Age", "Aryan", 0, Employee{}, false},
 		{"more than 22", "Aryan", 23, Employee{"Aryan", 23}, true},
 		{"equal to 22", "Aryan", 22, Employee{"Aryan", 22}, true},
 	}

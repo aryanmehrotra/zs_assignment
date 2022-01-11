@@ -30,6 +30,8 @@ func drawTriangle(n int) string {
 
 		ans = ans + "\n"
 	}
-
 	return ans
+}
+func main() {
+	drawTriangle(10)
 }

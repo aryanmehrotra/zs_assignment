@@ -2,7 +2,7 @@ package triangle
 
 import "testing"
 
-// TestTriangle : tests the triangle function for different inputs
+// TestTriangle tests the triangle function for different inputs
 func TestTriangle(t *testing.T) {
 	cases := []struct {
 		desc   string // Test case name

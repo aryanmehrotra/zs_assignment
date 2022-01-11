@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../TwoFer/.idea/TwoFer.iml" filepath="$PROJECT_DIR$/../TwoFer/.idea/TwoFer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pascal-triangle.iml" filepath="$PROJECT_DIR$/.idea/pascal-triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../prime-number/.idea/prime-number.iml" filepath="$PROJECT_DIR$/../prime-number/.idea/prime-number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../triangle/.idea/triangle.iml" filepath="$PROJECT_DIR$/../triangle/.idea/triangle.iml" />
     </modules>
   </component>
 </project>

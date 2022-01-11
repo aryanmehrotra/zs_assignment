@@ -1,6 +1,6 @@
 package triangle
 
-// checkTriangle : Differentiates and check different triangles based on the length of sides
+// checkTriangle Differentiates and check different triangles based on the length of sides
 func checkTriangle(s1, s2, s3 int) string {
 	// Check if any side's length is less than 0 or sum of two sides is less than third
 	if s1+s2 < s3 || s2+s3 < s1 || s1+s3 < s2 || s1 <= 0 || s2 <= 0 || s3 <= 0 {

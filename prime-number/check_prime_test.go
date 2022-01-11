@@ -2,7 +2,7 @@ package primenumber
 
 import "testing"
 
-//TestCheckPrime : tests the checkPrime functions implementation
+//TestCheckPrime tests the checkPrime functions implementation
 func TestCheckPrime(t *testing.T) {
 	var cases = []struct {
 		desc   string // Test case name

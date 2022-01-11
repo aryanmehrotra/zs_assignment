@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../twofer/.idea/TwoFer.iml" filepath="$PROJECT_DIR$/../twofer/.idea/TwoFer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../bob/.idea/bob.iml" filepath="$PROJECT_DIR$/../bob/.idea/bob.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/employee.iml" filepath="$PROJECT_DIR$/.idea/employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../leap-year/.idea/leapyear.iml" filepath="$PROJECT_DIR$/../leap-year/.idea/leapyear.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pascal-triangle/.idea/pascal-triangle.iml" filepath="$PROJECT_DIR$/../pascal-triangle/.idea/pascal-triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../prime-number/.idea/prime-number.iml" filepath="$PROJECT_DIR$/../prime-number/.idea/prime-number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../triangle/.idea/triangle.iml" filepath="$PROJECT_DIR$/../triangle/.idea/triangle.iml" />
     </modules>
   </component>
 </project>

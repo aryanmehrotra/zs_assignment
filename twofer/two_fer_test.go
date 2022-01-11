@@ -2,13 +2,12 @@ package twofer
 
 import "testing"
 
-// TestTwoFer : tests the twoFer function
-// takes t from testing package as a name
+// TestTwoFer tests the twoFer function
 func TestTwoFer(t *testing.T) {
 	cases := []struct {
-		desc   string //Test case name
-		name   string //input
-		output string //expected output
+		desc   string
+		name   string // input
+		output string
 	}{
 		{"with name", "Aryan", "One for Aryan one for me."},
 		{"without name", "name", "One for you, one for me."},

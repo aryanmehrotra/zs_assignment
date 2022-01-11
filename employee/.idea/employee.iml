@@ -7,5 +7,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pascal-triangle" />
     <orderEntry type="module" module-name="bob" />
+    <orderEntry type="module" module-name="leapyear" />
+    <orderEntry type="module" module-name="prime-number" />
+    <orderEntry type="module" module-name="TwoFer" />
+    <orderEntry type="module" module-name="triangle" />
   </component>
 </module>
