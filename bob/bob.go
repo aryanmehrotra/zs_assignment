@@ -3,15 +3,15 @@ package bob
 import "strings"
 
 // Bob returns the output based on the received phrase
-func Bob(pharse string) string {
+func Bob(phrase string) string {
 	switch {
-	case strings.ToUpper(pharse) == pharse && pharse[len(pharse)-1] == '?':
+	case strings.ToUpper(phrase) == phrase && phrase[len(phrase)-1] == '?':
 		return "Calm down, I know what I'm doing!"
-	case pharse[len(pharse)-1] == '?':
+	case phrase[len(phrase)-1] == '?':
 		return "Sure"
-	case pharse == "\n" || pharse == " " || pharse == "":
+	case phrase == "\n" || phrase == " " || phrase == "":
 		return "Fine. Be that way!"
-	case strings.ToUpper(pharse) == pharse:
+	case strings.ToUpper(phrase) == phrase:
 		return "Whoa, chill out!"
 	default:
 		return "Whatever"

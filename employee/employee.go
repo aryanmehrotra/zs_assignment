@@ -6,8 +6,8 @@ type Employee struct {
 	Age  int
 }
 
-// checkAge check if the Age is more than or less than 22
-func checkAge(name string, age int) (Employee, bool) {
+// CheckAge check if the Age is more than or less than 22
+func CheckAge(name string, age int) (Employee, bool) {
 	if age < 22 {
 		return Employee{}, false
 	}

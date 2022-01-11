@@ -4,8 +4,8 @@ import (
 	"math"
 )
 
-// checkPrime checks if the number is prime or not
-func checkPrime(input int) bool {
+// CheckPrime checks if the number is prime or not
+func CheckPrime(input int) bool {
 	if input <= 1 {
 		return false
 	}

@@ -18,7 +18,3 @@ func checkTriangle(s1, s2, s3 int) string {
 
 	return "Scalene Triangle"
 }
-
-func main() {
-	print(checkTriangle(10, 11, 12))
-}

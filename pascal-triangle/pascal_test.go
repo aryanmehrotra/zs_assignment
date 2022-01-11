@@ -28,7 +28,7 @@ func TestPascal(t *testing.T) {
 	}
 
 	for i, tc := range cases {
-		output := drawTriangle(tc.input)
+		output := DrawTriangle(tc.input)
 
 		// Check if the output is correct or not
 		// if not correct return the error using Errorf function of testing package

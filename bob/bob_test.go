@@ -2,7 +2,7 @@ package bob
 
 import "testing"
 
-// TestBob test the bob funtion
+// TestBob test the bob function
 func TestBob(t *testing.T) {
 	cases := []struct {
 		desc   string

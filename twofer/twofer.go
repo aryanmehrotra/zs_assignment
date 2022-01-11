@@ -1,7 +1,7 @@
 package twofer
 
-// twoFer check if the given string is a name or "name" literal
-func twoFer(s string) string {
+// Twofer check if the given string is a name or "name" literal
+func Twofer(s string) string {
 	if s == "name" {
 		return "One for you, one for me."
 	}

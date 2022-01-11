@@ -23,11 +23,8 @@ func TestTriangle(t *testing.T) {
 	for i, tc := range cases {
 		output := checkTriangle(tc.s1, tc.s2, tc.s3)
 
-		// Check if the output is correct or not
-		// if not correct return the error using Errorf function of testing package
 		if output != tc.output {
 			t.Errorf("TEST[%d],failed. %s\nExpected : %v \nGot : %v", i, tc.desc, tc.output, output)
-
 		}
 	}
 }

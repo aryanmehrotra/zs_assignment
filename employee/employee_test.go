@@ -2,7 +2,7 @@ package employee
 
 import "testing"
 
-// TestCheckAge tests checkAge function
+// TestCheckAge tests CheckAge function
 func TestCheckAge(t *testing.T) {
 	cases := []struct {
 		desc   string
@@ -19,7 +19,7 @@ func TestCheckAge(t *testing.T) {
 	}
 
 	for i, tc := range cases {
-		output, ok := checkAge(tc.name, tc.age)
+		output, ok := CheckAge(tc.name, tc.age)
 
 		if output != tc.output {
 			t.Errorf("TEST[%d],failed. %s\nExpected : %v \nGot : %v", i, tc.desc, tc.output, output)
