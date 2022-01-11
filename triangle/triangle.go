@@ -1,4 +1,4 @@
-package main
+package triangle
 
 // checkTriangle : Differentiates and check different triangles based on the length of sides
 func checkTriangle(s1, s2, s3 int) string {

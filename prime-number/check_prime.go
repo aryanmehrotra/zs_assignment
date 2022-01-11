@@ -1,7 +1,6 @@
-package main
+package primenumber
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -11,16 +10,12 @@ func checkPrime(input int) bool {
 		return false
 	}
 	n := int(math.Sqrt(float64(input)))
+
 	for i := 2; i <= n; i++ {
 		if input%i == 0 {
 			return false
 		}
 	}
+
 	return true
-}
-func main() {
-	var num int
-	fmt.Println("Enter a number:")
-	fmt.Scan(&num) // takes input from the user
-	fmt.Println(checkPrime(num))
 }

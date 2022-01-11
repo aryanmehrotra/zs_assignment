@@ -1,4 +1,4 @@
-package main
+package triangle
 
 import "testing"
 
@@ -19,12 +19,15 @@ func TestTriangle(t *testing.T) {
 		{"negative length", -2, 6, 8, "Not a Triangle"},
 		{"zero length", 0, 6, 8, "Not a Triangle"},
 	}
-	for _, cs := range cases {
-		output := checkTriangle(cs.s1, cs.s2, cs.s3)
+
+	for i, tc := range cases {
+		output := checkTriangle(tc.s1, tc.s2, tc.s3)
+
 		// Check if the output is correct or not
 		// if not correct return the error using Errorf function of testing package
-		if output != cs.output {
-			t.Errorf("%v case got %v expected %v", cs.desc, output, cs.output)
+		if output != tc.output {
+			t.Errorf("TEST[%d],failed. %s\nExpected : %v \nGot : %v", i, tc.desc, tc.output, output)
+
 		}
 	}
 }
